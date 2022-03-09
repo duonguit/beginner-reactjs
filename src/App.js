@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import ColorBoxFeature from './features/ColorBox';
+import Counter from './components/Counter';
+import TodoListFeature from './features/TodoList';
 
 function App() {
   return (
@@ -9,6 +12,13 @@ function App() {
         <p>
           Wellcome to reacrjs for beginner.
         </p>
+
+        <TodoListFeature></TodoListFeature>
+
+        {/* <ColorBoxFeature /> */}
+
+        {/* <Counter /> */}
+
       </header>
     </div>
   );
